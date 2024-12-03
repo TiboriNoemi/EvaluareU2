@@ -1,0 +1,96 @@
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    line-height: 1.6;
+    background-color: #ebd6e3;
+    color: #a0067f;
+    margin: 0;
+    padding: 35px;
+}
+
+.titlu-principal {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titlu-secundar {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.sectiune_nume {
+    background-color: #9cc4ff;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.contact {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+}
+
+.tabel {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #caf7ff;
+}
+
+.tabel th, .tabel td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+.tabel th {
+    background-color: #2980b9;
+    color: white;
+}
+
+.retea {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.sectiune {
+    background-color: rgb(148, 255, 255);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.sectiune_resurse {
+    background-color: #9cc4ff;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.image {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+.image img.active {
+    opacity: 1;
+}
